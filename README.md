@@ -52,4 +52,9 @@ CamIO 1.0
 ---------
 You can obtain the camio 1.0 library from
 https://github.com/mgrosvenor/camio1.0
+
 To build camio, run "build.sh" in the root directory.
+
+OpenSSL headers
+---------------
+The `dag_analyse` tool requires the OpenSSL headers to be installed: `sudo apt-get install openssl-dev`

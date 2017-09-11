@@ -7,12 +7,12 @@ Requirements
 
 OpenSSL
 -------
-This software requires the openssl headers. On Ubuntu these can be installed with 
-sudo apt-get install openssl-dev
+This software requires the openssl headers. On Ubuntu these can be installed with: 
+`sudo apt-get install openssl-dev`
 
 Cake
 -----
-To build it, you must have the "cake" build system installed. 
+To build it, you must have the "cake" build system installed.
 You can obtain cake from https://github.com/Zomojo/Cake
 To insall cake, follow the instructions in "INSTALL".
 
@@ -46,9 +46,6 @@ dag_analyse:
 |Optional | -l  | --dag0-len    |    - The length (in records) to display from dag0. (-1 == all)  |
 |Optional | -p  | --packet-type |    - Filter by packets with the given type. 1=tcp, 2=udp, 3=icmp, -1 == all  |
 |Flag     | -H  | --write-header|    - Write a header describing each file's columns  |
-|Flag     | -c  | --use-csv     |    - Write the output in CSV format (default = False) | 
+|Flag     | -c  | --use-csv     |    - Write the output in CSV format (default = False) |
 |Flag     | -b  | --use-bin     |    - Write the output in bin format (default = False)  |
 |Flag     | -h  | --help        |    - Print this help message  |
-  
-
-
